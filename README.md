@@ -1,2 +1,2 @@
-# SlackBot
-Slack personal assistant bot for UF students.
+# api
+API that our personal assistant bots use
