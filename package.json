@@ -4,7 +4,7 @@
   "description": "API that our personal assistant bots use.",
   "main": "index.js",
   "scripts": {
-    "dev": "babel-node src/index.js"
+    "dev": "nodemon src/index.js --exec babel-node"
   },
   "repository": {
     "type": "git",
