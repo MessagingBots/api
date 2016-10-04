@@ -8,7 +8,7 @@ let express = require('express'),
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello World! This is dev! Need a env var here...');
 });
 
 // Route will look like {URL:PORT}/api/v1/{route}
