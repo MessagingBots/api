@@ -20,7 +20,7 @@ apiRouter.use('/v1', apiV1);
 // Attach v1 routes to apiV1
 apiV1.use('/courses', courses);
 
-let server = app.listen(3000, function () {
+let server = app.listen(process.env.PORT || 5000, function () {
     let host = server.address().address;
     host = (host === '::' ? 'localhost' : host);
     let port = server.address().port;
