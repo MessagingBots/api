@@ -63,6 +63,7 @@ router.get('/:id', canvasAuthMiddleWare, function(req, res, next) {
         return course.id === courseId;
       });
 
+      // Return the found course
       if (course)
         res.send({'course': course});
       else
