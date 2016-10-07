@@ -1,4 +1,7 @@
 {
+  "appSecret": "34f99c2982acc666df827436bffa0a97",
+  "validationToken": "my_voice_is_my_password_verify_me",
+  "appID": "866939453443648",
   "canvasApiUrl": "https://ufl.instructure.com/api/v1/courses?",
   "scopeRequest": ["user_friends", "manage_pages"]
 }
