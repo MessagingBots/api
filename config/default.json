@@ -1,3 +1,4 @@
 {
-  "canvasApiUrl": "https://ufl.instructure.com/api/v1/courses?"
+  "canvasApiUrl": "https://ufl.instructure.com/api/v1/courses?",
+  "scopeRequest": ["user_friends", "manage_pages"]
 }
