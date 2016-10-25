@@ -1,7 +1,11 @@
 {
-  "appSecret": "34f99c2982acc666df827436bffa0a97",
-  "validationToken": "my_voice_is_my_password_verify_me",
-  "appID": "866939453443648",
+  "facebookConfig": {
+    "appID": "866939453443648",
+    "appSecret": "34f99c2982acc666df827436bffa0a97",
+    "validationToken": "my_voice_is_my_password_verify_me",
+    "callbackUrl": "http://localhost:5050/api/v1/auth/facebook/callback"
+  },
   "canvasApiUrl": "https://ufl.instructure.com/api/v1/courses?",
-  "scopeRequest": ["user_friends", "manage_pages"]
+  "scopeRequest": ["user_friends", "manage_pages"],
+  "dbURL": "mongodb://localhost:27017/messengerbots"
 }

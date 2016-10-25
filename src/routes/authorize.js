@@ -5,8 +5,6 @@ let express = require('express');
 let config = require('config');
 let router = express.Router();
 let { canvasApiUrl } = require('../../config/default');
-let passport = require('passport');
-let FacebookStrategy = require('passport-facebook').Strategy;
 
 const SCOPE_REQUEST = (process.env.SCOPE_REQUEST) ?
   (process.env.SCOPE_REQUEST) :
